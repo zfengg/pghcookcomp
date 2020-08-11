@@ -2,8 +2,8 @@
 main:
 #  - title: "Quick-Start Guide"
 #    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-#  - title: "Home"
-#    url: https://fengzhou.me/pghcookcomp/
+  - title: "Home"
+    url: https://fengzhou.me/pghcookcomp/
   - title: "Join"
     url: https://fengzhou.me/pghcookcomp/join/
   - title: "Vote"
