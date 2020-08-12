@@ -289,9 +289,3 @@ defaults:
       share: true
       related: true
       show_date: true # show the date of the post published
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: home
