@@ -19,7 +19,16 @@
 
     <h6>Please fill the following form to give us your reponses of the works!</h6>
     <p style="text-align:center;">
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeby-Q9DRuM_c29pPuLC1hHJO_vlowvlKlKa9twI4rLTqeNSQ/viewform?embedded=true" allowTransparency="true" height="3500" scrolling="no" seamless frameborder="0" style="width:100%;border:none">Loading…</iframe>
+    <iframe id="iframe_vote" src="https://docs.google.com/forms/d/e/1FAIpQLSeby-Q9DRuM_c29pPuLC1hHJO_vlowvlKlKa9twI4rLTqeNSQ/viewform?embedded=true" allowTransparency="true" scrolling="no" seamless frameborder="0" style="width:100%;border:none">Loading…</iframe>
     </p>
+    <script>
+    // Selecting the iframe element
+    var iframe = document.getElementById("iframe_vote");
+
+    // Adjusting the iframe height onload event
+    iframe.onload = function(){
+      iframe.style.height = iframe.contentWindow.document.body.scrollHeight + '5px';
+    }
+    </script>
   </body>
 </html>
