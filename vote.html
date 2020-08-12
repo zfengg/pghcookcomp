@@ -1,7 +1,7 @@
 ---
 # front matter tells Jekyll to process Liquid
 # layout: default
-title: Vote
+# title: Vote
 # author_profile: true
 ---
 <!DOCTYPE html>
@@ -10,19 +10,17 @@ title: Vote
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
   </head>
+
   <body>
     <h1> We need your precious votes!</h1>
-    <p> Some descriptions.</p>
-     😅&#128516;&#128584;&#128557;&#128536;&#128147;&#127894;
-
-    <p style="text-align:center;">
-    <iframe width="100%" height="200" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTtFSkf0_JgZCmyR8H50Jzy1V8ZtF3Afl1_4VP5_qyvhOBZNRaULmS0nS_s0V-yIKW8X3MzZDDY-ahX/pubchart?oid=1617426782&amp;format=interactive"></iframe>
-    </p>
+    <strong> Some descriptions.</strong>
 
     <hr>
+
     <h6>Please fill the following form to give us your reponses of the works!</h6>
     <p style="text-align:center;">
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeby-Q9DRuM_c29pPuLC1hHJO_vlowvlKlKa9twI4rLTqeNSQ/viewform?embedded=true" allowTransparency="true" height="1650" frameborder="0" scrolling="no" style="width:100%;border:none">Loading…</iframe>
+    <iframe id="iframe_vote" src="https://docs.google.com/forms/d/e/1FAIpQLSeby-Q9DRuM_c29pPuLC1hHJO_vlowvlKlKa9twI4rLTqeNSQ/viewform?embedded=true" allowTransparency="true" height="3600" scrolling="no" seamless frameborder="0" style="width:100%;border:none">Loading…</iframe>
     </p>
+
   </body>
 </html>

@@ -23,10 +23,10 @@ repository               : zfengg/minimal_mistakes # GitHub username/repo-name e
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "assets/images/logo-cuhk-sim.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "PGH CookComp 2020" # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs              : true #false # true, false (default)
+breadcrumbs              : false #false # true, false (default)
 words_per_minute         : 200  # the speed of words appear this can be change at the YAML front matter of each page
 comments:
-  provider               : "staticman_v2" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               :  # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -40,7 +40,7 @@ comments:
     theme                : # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
   staticman:
-    branch               : "master" # "master"
+    branch               : # "master"
     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
 
 reCaptcha:   # Avoid apam comments. To apply for the sitekey and seret through google reCaptchaV2
@@ -289,9 +289,3 @@ defaults:
       share: true
       related: true
       show_date: true # show the date of the post published
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: home
