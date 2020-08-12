@@ -23,7 +23,7 @@ repository               : zfengg/minimal_mistakes # GitHub username/repo-name e
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "assets/images/logo-cuhk-sim.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "PGH CookComp 2020" # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs              : true #false # true, false (default)
+breadcrumbs              : false #false # true, false (default)
 words_per_minute         : 200  # the speed of words appear this can be change at the YAML front matter of each page
 comments:
   provider               :  # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
