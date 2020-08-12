@@ -3,13 +3,13 @@ main:
 #  - title: "Quick-Start Guide"
 #    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "Home"
-    url: https://fengzhou.me/pghcookcomp/
+    url: https://pghcookcomp.me/
   - title: "Join"
-    url: https://fengzhou.me/pghcookcomp/join/
+    url: https://pghcookcomp.me/join/
   - title: "Vote"
-    url: https://fengzhou.me/pghcookcomp/vote/
+    url: https://pghcookcomp.me/vote/
   - title: "Result"
-    url: https://fengzhou.me/pghcookcomp/result/
+    url: https://pghcookcomp.me/result/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
