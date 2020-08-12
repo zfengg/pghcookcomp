@@ -19,7 +19,7 @@ name                     : "PGHRA@CUHK"  # the name which will at the bottom of 
 description              : "Website for cook competition."
 url                      :  #http://zfengg.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # /minimal-mistakes # the subpath of your site, e.g. "/blog"
-repository               : zfengg/minimal_mistakes # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : zfengg/pghcookcomp # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "assets/images/logo-cuhk-sim.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "PGH CookComp 2020" # overrides the website title displayed in the masthead, use " " for no title
