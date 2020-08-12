@@ -3,15 +3,9 @@ main:
 #  - title: "Quick-Start Guide"
 #    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "Home"
-<<<<<<< HEAD
-    url: https://fengzhou.me/pghcookcomp/
-  - title: "Participate"
-    url: https://fengzhou.me/pghcookcomp/join/
-=======
     url: https://pghcookcomp.me/
   - title: "Join"
     url: https://pghcookcomp.me/join/
->>>>>>> b2587740c477d16d09d96201f65616eb60e9bbd8
   - title: "Vote"
     url: https://pghcookcomp.me/vote/
   - title: "Result"
